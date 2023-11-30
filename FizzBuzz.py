@@ -25,5 +25,8 @@ If neither the first nor the second condition is met, this line is the third con
 else:
 If none of the above conditions are true (i.e., i is not divisible by 3 or 5), this line is executed. It prints the current value of i.
 
-In summary, this code is a FizzBuzz program. For each number from 1 to 100 (inclusive), it prints 'Fizz' if the number is divisible by 3, 'Buzz' if divisible by 5, 'FizzBuzz' if divisible by both 3 and 5, and the number itself if it doesn't meet any of these conditions. This is a classic programming exercise often used in interviews to test basic programming and logical reasoning skills.
+In summary, this code is a FizzBuzz program. 
+For each number from 1 to 100 (inclusive), it prints 'Fizz' if the number is divisible by 3, 'Buzz' if divisible by 5, 'FizzBuzz' if divisible by both 3 and 5, 
+and the number itself if it doesn't meet any of these conditions. 
+This is a classic programming exercise often used in interviews to test basic programming and logical reasoning skills.
 '''
