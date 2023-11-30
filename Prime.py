@@ -36,7 +36,8 @@ for i in range(2, int(number**0.5) + 1):
 This line starts a for loop that iterates over i from 2 to the square root of the input number. The + 1 is used to include the square root itself in the range.
 
 if number % i == 0:
-Inside the loop, this line checks if the input number is divisible evenly by i. If it is, it means the number has a factor other than 1 and itself, so the function returns False.
+Inside the loop, this line checks if the input number is divisible evenly by i. If it is, it means the number has a factor other than 1 and itself, 
+so the function returns False.
 
 return False # It has a factor other than 1 and itself:
 If the loop completes without finding any factors, the function returns True at the end, indicating that the number is prime.
@@ -59,5 +60,6 @@ If the number is not prime, this line is executed.
 print(f"{number_to_check} is not a prime number."):
 This line prints a message indicating that the number is not a prime number.
 
-In summary, the script defines a function to check if a given number is prime and demonstrates its usage by checking whether the number 13 is prime or not. The function works by checking for factors from 2 to the square root of the number, making it an efficient approach for primality testing.
+In summary, the script defines a function to check if a given number is prime and demonstrates its usage by checking whether the number 13 is prime or not. 
+The function works by checking for factors from 2 to the square root of the number, making it an efficient approach for primality testing.
 '''
