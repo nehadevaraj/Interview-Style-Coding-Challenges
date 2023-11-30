@@ -1,3 +1,4 @@
+# 4th example:
 def is_prime(number):
     # 0 and 1 are not prime numbers
     if number < 2:

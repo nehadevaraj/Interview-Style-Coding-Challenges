@@ -1,3 +1,4 @@
+# 3rd example:
 import numpy as np
 
 def inverse_2x2(matrix):
